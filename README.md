@@ -43,7 +43,7 @@ This is due to the fact that the parent repository itself always tracks an expli
 
 You can try it out in this showcase:
 
-1. First check the current version of the submodule by looking into the file [submodules/git-submodule-showcase-submodule/submodulefile.txt](submodules/git-submodule-showcase-submodule/submodulefile.txt). It will say `Revision 2.` in the end.
+1. First check the current version of the submodule by looking into the file `submodules/git-submodule-showcase-submodule/submodulefile.txt`. It will say `Revision 2.` in the end.
 
 2. Now let's pull in some updates:
 
@@ -52,7 +52,7 @@ You can try it out in this showcase:
   git status
   ```
 
-  You will now see that git tells you there are untracked changes in the folder `submodules/git-submodule-showcase-submodule`. Opening [submodules/git-submodule-showcase-submodule/submodulefile.txt](submodules/git-submodule-showcase-submodule/submodulefile.txt) again you will now see it says `Revision 3`.
+  You will now see that git tells you there are untracked changes in the folder `submodules/git-submodule-showcase-submodule`. When opening `submodulefile.txt` again you will now see it says `Revision 3`.
 
 3. To make those changes stick, you will have to explicitly commit the folder of the submodule - this will adjust the parent's repository commit-sha of the submodule to the newest version:
 
