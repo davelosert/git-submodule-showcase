@@ -1,0 +1,3 @@
+[submodule "submodules/git-submodule-showcase-submodule"]
+	path = submodules/git-submodule-showcase-submodule
+	url = git@github.com:davelosert/git-submodule-showcase-submodule.git
